@@ -1,0 +1,605 @@
+.logoo{
+    height: 60px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    position: fixed;
+    width: 1525.0px;
+    z-index: 1;
+    transform: translate(-8px, -8.0px);
+}
+.CONTATTI, .informazioni, .giochi{
+font-size: 15px;
+padding: 20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:white;
+text-decoration: none;
+transition: all 0.3s ease
+}
+
+.CONTATTI:hover,
+.informazioni:hover,
+.giochi:hover {
+  transform: scale(1.12);
+  text-shadow: 0 0 20px #ffffff;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.bottoni{
+margin-left:20px ;
+}
+.verstappen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -60%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    max-width: 700px;
+    
+  }
+  
+  
+  .tutu {
+    text-align: left;
+    
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+  .oo {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+  .aa {
+   
+    text-decoration: none;
+    color: #000000;
+    background: linear-gradient(135deg, #ff0000, #990000);
+    
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+    letter-spacing: 1px;
+    border: none;
+    padding: 15px;
+    margin-left: 500px;
+}
+
+.aa:hover {
+    transform: scale(1.08);
+    background: linear-gradient(135deg, #cc0000, #ff0000);
+    box-shadow: 0 6px 25px rgba(255, 0, 0, 0.6);
+    color: #ffffff; 
+}
+body{
+    background-color: black;
+
+}
+.imagecont{
+    display:flex;
+    flex-direction:row;
+    background-color: #000000;
+    padding-bottom:  100px;
+    
+}
+.Tutto{
+    background-color: rgb(0, 0, 0);
+}
+.due024, .due023, .due022{
+    padding-left: 90px;
+    transition: transform 0.3s ease;
+}
+
+.due024:hover, .due023:hover, .due022:hover {
+    transform: scale(1.1);
+   
+}
+.entra{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+    
+}
+
+
+.div2 {
+    display: flex;
+    flex-direction: row; /* Imposta il layout in orizzontale */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: white; /* Sfondo bianco per la sezione del video e contenuto a destra */
+   
+  }
+  
+  /* Video a sinistra */
+  .video {
+    width: 900px;
+    height: 500px;
+    
+  }
+  
+  /* Colonna destra */
+  .qqqq {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+  }
+  
+  /* Blocchi piloti */
+  .q0, .q1, .q2 {
+    background-color: black;
+    width: 320px;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .q0:hover, .q1:hover, .q2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px black;
+  }
+  
+  /* Testo all'interno */
+  .q02, .q12, .q22 {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Link */
+  a.cl, a.mv, a.LN {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+  }
+  
+  /* Logo EA F1 */
+  .logo {
+    margin-top: 40px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flogo {
+    width: 100%;
+    object-fit: contain;
+  }
+
+
+  .champion {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: black; /* Sfondo nero per tutta la sezione */
+  }
+  
+  /* Immagine sinistra */
+  .chh {
+    width: 50%;
+  }
+  
+  .chh .qqq {
+    width: 750px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin: 0; /* Rimuove eventuali margini */
+  }
+  
+  /* Immagine destra */
+  .chhhhhhh {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  /* Immagine a destra */
+  .chhhhhhh .qqffffq {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 20px; /* Distanza tra l'immagine e il testo */
+  }
+  
+  /* Testo */
+  .opopo {
+    margin-bottom: 20px;
+    color: white; /* Colore del testo bianco */
+    width: 650px;
+    margin-left: 50px;
+  }
+  
+  .opopo p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+    text-align:center; /* Testo centrato */
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  /* Bottone */
+  .didi {
+    background-color: black; /* Sfondo del bottone nero */
+    color:deeppink; /* Testo del bottone fucsia */
+    border: 2px solid deeppink; /* Bordo del bottone fucsia */
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 100px;
+    display: block;
+    border-radius: 50px;
+    margin: 0 auto; /* Centra il bottone */
+    text-align: center; /* Centra il testo nel bottone */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .didi:hover {
+    background-color: deeppink;
+    color: black; /* Testo nero quando il mouse passa sopra */
+  }
+  .didi1{
+     text-decoration: none;
+     margin-left: 260px;
+  }
+
+
+
+
+  
+
+  
+  .abudhabi-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+  }
+  
+  /* Colonna sinistra */
+  .left-side {
+    width: 50%;
+    height: 421px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  /* Immagine scenario */
+  .scenario-img {
+    width: 95%;
+    margin-top: 10px;
+    height: auto;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  
+  /* Testo */
+  .text {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+
+  }
+  
+  /* Bottone */
+  .cta-button {
+    background-color: black;
+    color: deeppink;
+    border: 2px solid deeppink;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+  }
+  .didi2{
+    text-decoration: none;
+  }
+  .cta-button:hover {
+    background-color: deeppink;
+    color: black;
+  }
+  
+  /* Colonna destra */
+  .right-side {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .abu-img {
+    width: 750px;
+    
+    object-fit: cover;
+    display: block;
+  }
+  
+
+  .f1-hero {
+    display: flex;
+    height: 421.99px;
+  }
+  
+  /* Immagine sinistra */
+  .hero-img {
+    width: 50%;
+    height: 421.99px;
+  }
+  
+  .hero-img img {
+    width: 750px;
+    height: 421.99px;
+    object-fit: cover;
+  }
+  
+  /* Testo a destra */
+  .hero-content {
+    width: 421px;
+   color: #ffffff;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding-top: 30px;
+  }
+  .hh1{
+    font-size: 18px;
+  }
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    margin-right: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid red;
+    border-radius: 50px;
+    color: rgb(255, 0, 0);
+    transition: all 0.3s ease;
+    
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+  }
+  
+  .platforms img {
+    height: 24px;
+    margin-right: 8px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    
+  }
+  
+  .driver {
+    flex: 0 0 calc(25% - 20px); 
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .driver img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .driver:hover img {
+    transform: scale(1.05);
+  }
+  
+  .driver p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+.hall{
+    width: 1510px;
+    height: 100px;
+    object-fit: cover;
+}
+.hallo, .llll{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;}
+.lleeg{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 60px;
+    background-color: #ff0000;
+    letter-spacing: 5px;
+    margin-top: 5px;
+    padding: 8.0px;
+}
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+    
+
+    background-color: #ffffff;
+  }
+  
+  .logo-row img {
+    width: 200px; 
+    height: auto;
+    transition: all 0.3s ease;
+  }
+  .logo-row img:hover{
+    transform: scale(1.1);
+  }
+  .flogoo{
+    margin-top: -50px;
+    margin-bottom: -50px;
+    margin-left: 40px;
+  }
+
+.whitee{
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+}
+.site-footer {
+    background-color: #1c1c1c;
+    color: #ccc;
+    font-size: 14px;
+    padding: 40px 20px;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .footer-logos{
+    margin-right: 155.0px;
+  }
+  .footer-logos img,
+  .footer-socials a img {
+    width: 50px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+  }
+  .footer-logos img,
+  .footer-socials a img:hover {
+   transform: scale(1.2);
+  }
+  
+  .footer-socials {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  
+  .footer-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+.footer-middle img{
+    margin-left: 10px;
+}
+  
+  .footer-middle img {
+    width: 80px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #999;
+  }
+  
+  .footer-bottom p a {
+    color: #e63946;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 20px 0;
+  }
+.f{
+    margin-right: 5px;
+}
+.x{
+    margin-left: -10px;
+}
+.footer-bottom p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-nav a{
+    transition: all 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-nav a:hover  {
+    color:#e63946;
+}
+
