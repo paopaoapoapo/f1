@@ -1,0 +1,131 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logoo{
+    height: 60px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    position: fixed;
+    width: 1525.0px;
+    z-index: 1;
+    transform: translate(0,15.0px);
+}
+.CONTATTI, .informazioni, .giochi{
+font-size: 15px;
+padding: 20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:white;
+text-decoration: none;
+transition: all 0.3s ease
+}
+
+.CONTATTI:hover,
+.informazioni:hover,
+.giochi:hover {
+  transform: scale(1.12);
+  text-shadow: 0 0 20px #ffffff;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.bottoni{
+margin-left:20px ;
+}
+  
+  .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    
+  }
+  
+  h1, h2 {
+    color: #ff0000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .img-side {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(138, 138, 138, 0.4);
+  }
+  
+  .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 120px;
+  }
+  
+  .img-box {
+    max-width: 450px;
+    flex: 1 1 300px;
+    text-align: center;
+  }
+  
+  .main-img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(127, 127, 127, 0.4);
+  }
+  
+  .caption {
+    font-style: italic;
+    color: #ccc;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .scenario-speciale {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .btn-buy {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 14px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-buy:hover {
+    background-color: #cc0000;
+  }
+  .f178945{
+    width: 750px;
+    padding-left: 150px;
+    padding-top: 17px;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 1;
+    
+  }
+  .intro{
+    margin-top: 150px;
+  }

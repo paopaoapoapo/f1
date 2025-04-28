@@ -1,0 +1,93 @@
+/* Stile di base per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Sfondo nero */
+    color: #fff; /* Testo bianco */
+  }
+  
+  .logoo{
+    height: 60px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    position: fixed;
+    width: 1525.0px;
+    z-index: 1;
+    transform: translate(0,5.0px);
+}
+.CONTATTI, .informazioni, .giochi{
+font-size: 15px;
+padding: 20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:white;
+text-decoration: none;
+transition: all 0.3s ease
+}
+
+.CONTATTI:hover,
+.informazioni:hover,
+.giochi:hover {
+  transform: scale(1.12);
+  text-shadow: 0 0 20px #ffffff;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.bottoni{
+margin-left:20px ;
+}
+  /* Stile per il contenuto principale */
+  .content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #111; /* Sfondo grigio scuro per il contenuto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ff0000; /* Titolo in rosso */
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    color: #ff0000; /* Titoli di sezione in rosso */
+    font-size: 24px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ff0000; /* Linea rossa sotto i titoli */
+    padding-bottom: 5px;
+  }
+  
+  /* Sezioni dei giochi */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  
+  /* Immagini dei giochi */
+  .img-gioco {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+  }
+  
+  
